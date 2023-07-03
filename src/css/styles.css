@@ -1,6 +1,7 @@
-:root{
+:root {
     --color-white: #ffffff;
     --color-dark: #2e2e2e;
+    --color-grey: #616161;
 }
 
 /*
@@ -20,17 +21,102 @@
 
 /* CONFIGURAÇÕES DO HEADER */
 
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 60px;
+    gap: 200px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menu {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--color-dark);
+    font-size: 35px;
+}
+
+.menu li a:hover {
+    border-bottom: 1px solid var(--color-dark);
+    opacity: .8;
+}
+
+
+
 
 
 
 /* CONFIGURAÇÕES DO HOME */
 
-
+.container-home {
+    height: 700px;
+}
 
 
 
 /* CONFIGURAÇÕES DO ABOUT */
 
+.container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-about {
+    background-color: var(--color-dark);
+    height: 44px;
+    padding: 5px;
+    width: 357px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--color-white);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.container-content-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-content-about{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 60px;
+
+}
+
+.text-about{
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    width: 510px;
+    font-size: 18px;
+    line-height: 28px;
+
+}
 
 
 
@@ -38,7 +124,9 @@
 
 /* CONFIGURAÇÕES DO PROMO */
 
-
+.container-promo {
+    height: 700px;
+}
 
 
 
@@ -46,3 +134,21 @@
 
 
 /* CONFIGURAÇÕES DO FOOTER */
+
+.container-footer{
+background-color: var(--color-dark);
+}
+
+.footer-image{
+    width: 100%;
+    height: 520px;
+}
+
+.footer-text{
+    color: var(--color-white);
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0 40px 0px;
+
+}
