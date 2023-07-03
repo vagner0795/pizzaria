@@ -30,9 +30,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./src/result-img/*****" width="100px;" alt="Foto da Vittoria"/><br>
+        <img src="./src/result-img/vittoria-git.png" width="100px;" alt="Foto da Vittoria"/><br>
         <sub>
-          <b>your name here</b>
+          <b>Vittoria Lopes</b>
         </sub>
       </a>
     </td>
