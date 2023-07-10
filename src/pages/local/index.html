@@ -29,16 +29,52 @@
     </header>
 
     <main class="containar-main">
-        <div>
-            <h1>CONFIRA NOSSOS HORÁRIOS:</h1>
-            <p>De Terça-feira a Domingo, das 18h às 22h</p>
+        <div class="banner">
+            <img src="../../img/pages.png" alt="banner-pizza">
         </div>
-        <hr class="line">
-        <h2>Endereço:</h2>
+        <div class="card-container">
+            <div class="card">
 
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358558.3923102015!2d12.057699398515165!3d45.404551340280925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1daf1d63d89%3A0x7ba3c6f0bd92102f!2zVmVuZXphLCBJdMOhbGlh!5e0!3m2!1spt-BR!2sbr!4v1688668323149!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h1 class="title">CONFIRA NOSSOS HORÁRIOS:</h1>
+                <p class="paragraph">De Terça-feira a Domingo, das 18h às 22h</p>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="text-contact">
+                <h2>Nossos Contatos</h2>
+                <p>Preencha o formulário abaixo para entrar em contato conosco. Seus comentários e perguntas são
+                    bem-vindos.</p>
 
+                <div class="list-contacts">
+                    <p>TELEFONE: <span> +55 (99) 9 9999-9999</span></p>
+                    <p>EMAIL: <span>pizzariaveneza@website.com</span></p>
+                    <p>ENDEREÇO: <span>Veneza, Itália</span></p>
+                    <p>PHONE: <span> +55 (99) 9 9999-9999</span></p>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <form action="#">
+                    <input placeholder="Digite seu nome" id="name" type="text" required>
+                    <input placeholder="Digite seu email" id="email" type="email" required>
+                    <input placeholder="digite seu telefone" id="phone" type="number" required>
+                    <textarea id="message" rows="10" placeholder="Digite sua mensagem">
+                    </textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </div>
+
+        </div>
+        <div class="adress-container">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358558.3923102015!2d12.057699398515165!3d45.404551340280925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1daf1d63d89%3A0x7ba3c6f0bd92102f!2zVmVuZXphLCBJdMOhbGlh!5e0!3m2!1spt-BR!2sbr!4v1688668323149!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
+
     <footer class="container-footer">
         <div class="footer-text">
             <p>(11) 5589 - 3642</p>
